@@ -1,0 +1,9 @@
+{
+  "id" : "kk60jzeqxdesff3u7b41",
+  "name" : "disease-prediction",
+  "description" : "disease prediction",
+  "owner" : "111111",
+  "confidential" : "FALSE",
+  "edges" : "[{\"source\":{\"title\":\"data-retrieval\",\"id\":\"7624xp-gwtNc\",\"x\":134.95928955078125,\"y\":380.5790100097656,\"color\":\"white\"},\"target\":{\"title\":\"preprocess-data\",\"id\":\"wiuage-y5GZ5\",\"x\":136.70012664794922,\"y\":577.0157318115234,\"color\":\"white\"}},{\"source\":{\"title\":\"preprocess-data\",\"id\":\"wiuage-y5GZ5\",\"x\":136.70012664794922,\"y\":577.0157318115234,\"color\":\"white\"},\"target\":{\"title\":\"encoder\",\"id\":\"hv7zjp-mff3c\",\"x\":303.25496673583984,\"y\":579.4682922363281,\"color\":\"white\"}},{\"source\":{\"title\":\"encoder\",\"id\":\"hv7zjp-mff3c\",\"x\":303.25496673583984,\"y\":579.4682922363281,\"color\":\"white\"},\"target\":{\"title\":\"disease-training\",\"id\":\"frv7ut-VnF3I\",\"x\":392.75770568847656,\"y\":431.2209777832031,\"color\":\"white\"}},{\"source\":{\"title\":\"disease-training\",\"id\":\"frv7ut-VnF3I\",\"x\":392.75770568847656,\"y\":431.2209777832031,\"color\":\"white\"},\"target\":{\"title\":\"test-disease-prediction-model\",\"id\":\"7k5p70-aUbfs\",\"x\":547.0982971191406,\"y\":581.5184326171875,\"color\":\"white\"}}]",
+  "nodes" : "[{\"title\":\"data-retrieval\",\"id\":\"7624xp-gwtNc\",\"x\":134.95928955078125,\"y\":380.5790100097656,\"color\":\"white\"},{\"title\":\"preprocess-data\",\"id\":\"wiuage-y5GZ5\",\"x\":136.70012664794922,\"y\":577.0157318115234,\"color\":\"white\"},{\"title\":\"encoder\",\"id\":\"hv7zjp-mff3c\",\"x\":303.25496673583984,\"y\":579.4682922363281,\"color\":\"white\"},{\"title\":\"disease-training\",\"id\":\"frv7ut-VnF3I\",\"x\":392.75770568847656,\"y\":431.2209777832031,\"color\":\"white\"},{\"title\":\"test-disease-prediction-model\",\"id\":\"7k5p70-aUbfs\",\"x\":547.0982971191406,\"y\":581.5184326171875,\"color\":\"white\"}]"
+}

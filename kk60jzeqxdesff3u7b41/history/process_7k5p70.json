@@ -1,0 +1,141 @@
+[{
+  "history_id" : "xzevwj2ewac",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: anxiety state\nActual: bipolar disorder\nPred: hypertension pulmonary\nActual: endocarditis\nPred: deep vein thrombosis\nActual: pneumonia\nPred: hypercholesterolemia\nActual: ischemia\nPred: incontinence\nActual: colitis\nPred: overload fluid\nActual: kidney failure acute\nPred: thrombus\nActual: kidney disease\nPred: schizophrenia\nActual: paranoia\nPred: acquired immuno-deficiency syndrome\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: hyperlipidemia\nActual: hypertensive disease\nPred: accident cerebrovascular\nActual: hemiparesis\nPred: tonic-clonic epilepsy\nActual: cirrhosis\nPred: schizophrenia\nActual: manic disorder\nPred: thrombus\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: failure heart congestive\nActual: paroxysmal dyspnea\nPred: malignant neoplasms\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: accident cerebrovascular\nActual: confusion\nPred: coronary arteriosclerosis\nActual: gastroesophageal reflux disease\nPred: thrombus\nActual: delirium\nPred: failure heart\nActual: insufficiency renal\nPred: chronic alcoholic intoxication\nActual: delusion\nPred: septicemia\nActual: dementia\nPred: thrombus\nActual: cellulitis\nPred: malignant neoplasms\nActual: melanoma\nPred: malignant neoplasms\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: primary carcinoma of the liver cells\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717471686887,
+  "history_end_time" : 1717471688324,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "69xsmwvrm2e",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: pancreatitis\nActual: endocarditis\nPred: spasm bronchial\nActual: pneumonia\nPred: hypercholesterolemia\nActual: ischemia\nPred: infection urinary tract\nActual: colitis\nPred: failure kidney\nActual: kidney failure acute\nPred: hypercholesterolemia\nActual: kidney disease\nPred: chronic alcoholic intoxication\nActual: paranoia\nPred: thrombocytopaenia\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: biliary calculus\nActual: hypertensive disease\nPred: aphasia\nActual: hemiparesis\nPred: hemorrhoids\nActual: cirrhosis\nPred: pyelonephritis\nActual: manic disorder\nPred: pyelonephritis\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: cardiomyopathy\nActual: paroxysmal dyspnea\nPred: degenerative polyarthritis\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: accident cerebrovascular\nActual: confusion\nPred: neoplasm\nActual: gastroesophageal reflux disease\nPred: pyelonephritis\nActual: delirium\nPred: hemorrhoids\nActual: insufficiency renal\nPred: chronic alcoholic intoxication\nActual: delusion\nPred: failure heart congestive\nActual: dementia\nPred: anxiety state\nActual: cellulitis\nPred: pyelonephritis\nActual: melanoma\nPred: bacteremia\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: accident cerebrovascular\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717470600582,
+  "history_end_time" : 1717470602185,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "zxwy7rq7ysm",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: infection\nActual: endocarditis\nPred: upper respiratory infection\nActual: pneumonia\nPred: peripheral vascular disease\nActual: ischemia\nPred: pyelonephritis\nActual: colitis\nPred: fibroid tumor\nActual: kidney failure acute\nPred: pancreatitis\nActual: kidney disease\nPred: schizophrenia\nActual: paranoia\nPred: cholecystitis\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: peripheral vascular disease\nActual: hypertensive disease\nPred: accident cerebrovascular\nActual: hemiparesis\nPred: overload fluid\nActual: cirrhosis\nPred: pancreatitis\nActual: manic disorder\nPred: infection urinary tract\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: failure heart congestive\nActual: paroxysmal dyspnea\nPred: malignant neoplasms\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: accident cerebrovascular\nActual: confusion\nPred: myocardial infarction\nActual: gastroesophageal reflux disease\nPred: pancreatitis\nActual: delirium\nPred: cholecystitis\nActual: insufficiency renal\nPred: schizophrenia\nActual: delusion\nPred: failure heart congestive\nActual: dementia\nPred: pyelonephritis\nActual: cellulitis\nPred: malignant neoplasms\nActual: melanoma\nPred: overload fluid\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: accident cerebrovascular\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717470452474,
+  "history_end_time" : 1717470454244,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "8d5upxc5tly",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: depression mental\nActual: bipolar disorder\nPred: gastritis\nActual: endocarditis\nPred: migraine disorders\nActual: pneumonia\nPred: peripheral vascular disease\nActual: ischemia\nPred: hernia\nActual: colitis\nPred: neutropenia\nActual: kidney failure acute\nPred: migraine disorders\nActual: kidney disease\nPred: suicide attempt\nActual: paranoia\nPred: migraine disorders\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: diabetes\nActual: hypertensive disease\nPred: accident cerebrovascular\nActual: hemiparesis\nPred: osteoporosis\nActual: cirrhosis\nPred: diverticulosis\nActual: manic disorder\nPred: bronchitis\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: failure heart\nActual: paroxysmal dyspnea\nPred: hernia\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: benign prostatic hypertrophy\nActual: confusion\nPred: ileus\nActual: gastroesophageal reflux disease\nPred: diverticulosis\nActual: delirium\nPred: thrombocytopaenia\nActual: insufficiency renal\nPred: depression mental\nActual: delusion\nPred: Alzheimer's disease\nActual: dementia\nPred: gout\nActual: cellulitis\nPred: migraine disorders\nActual: melanoma\nPred: osteoporosis\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: accident cerebrovascular\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717470319513,
+  "history_end_time" : 1717470321146,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "21m6zhd4n0a",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: failure heart congestive\nActual: endocarditis\nPred: asthma\nActual: pneumonia\nPred: hypercholesterolemia\nActual: ischemia\nPred: carcinoma prostate\nActual: colitis\nPred: overload fluid\nActual: kidney failure acute\nPred: overload fluid\nActual: kidney disease\nPred: diverticulosis\nActual: paranoia\nPred: diverticulosis\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: migraine disorders\nActual: hypertensive disease\nPred: lymphatic diseases\nActual: hemiparesis\nPred: diverticulosis\nActual: cirrhosis\nPred: diverticulosis\nActual: manic disorder\nPred: neuropathy\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: cardiomyopathy\nActual: paroxysmal dyspnea\nPred: diverticulosis\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: migraine disorders\nActual: confusion\nPred: carcinoma\nActual: gastroesophageal reflux disease\nPred: degenerative polyarthritis\nActual: delirium\nPred: chronic kidney failure\nActual: insufficiency renal\nPred: psychotic disorder\nActual: delusion\nPred: degenerative polyarthritis\nActual: dementia\nPred: neoplasm\nActual: cellulitis\nPred: ulcer peptic\nActual: melanoma\nPred: degenerative polyarthritis\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: ketoacidosis diabetic\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717470258292,
+  "history_end_time" : 1717470259930,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "gel0w18rlf1",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: hepatitis C\nActual: endocarditis\nPred: failure heart congestive\nActual: pneumonia\nPred: peripheral vascular disease\nActual: ischemia\nPred: adhesion\nActual: colitis\nPred: pancytopenia\nActual: kidney failure acute\nPred: ileus\nActual: kidney disease\nPred: decubitus ulcer\nActual: paranoia\nPred: candidiasis\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: coronary arteriosclerosis\nActual: hypertensive disease\nPred: epilepsy\nActual: hemiparesis\nPred: malignant neoplasms\nActual: cirrhosis\nPred: hypothyroidism\nActual: manic disorder\nPred: deglutition disorder\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: hepatitis C\nActual: paroxysmal dyspnea\nPred: malignant neoplasms\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: incontinence\nActual: confusion\nPred: hemorrhoids\nActual: gastroesophageal reflux disease\nPred: schizophrenia\nActual: delirium\nPred: arthritis\nActual: insufficiency renal\nPred: depression mental\nActual: delusion\nPred: suicide attempt\nActual: dementia\nPred: gout\nActual: cellulitis\nPred: ileus\nActual: melanoma\nPred: hemorrhoids\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: emphysema pulmonary\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717470104659,
+  "history_end_time" : 1717470106211,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "z89yye2llp9",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: primary carcinoma of the liver cells\nActual: endocarditis\nPred: carcinoma of lung\nActual: pneumonia\nPred: hypercholesterolemia\nActual: ischemia\nPred: effusion pericardial\nActual: colitis\nPred: effusion pericardial\nActual: kidney failure acute\nPred: coronary arteriosclerosis\nActual: kidney disease\nPred: schizophrenia\nActual: paranoia\nPred: hepatitis B\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: gastroenteritis\nActual: hypertensive disease\nPred: accident cerebrovascular\nActual: hemiparesis\nPred: thrombus\nActual: cirrhosis\nPred: schizophrenia\nActual: manic disorder\nPred: pneumothorax\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: carcinoma breast\nActual: paroxysmal dyspnea\nPred: hepatitis B\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: accident cerebrovascular\nActual: confusion\nPred: suicide attempt\nActual: gastroesophageal reflux disease\nPred: chronic alcoholic intoxication\nActual: delirium\nPred: carcinoma breast\nActual: insufficiency renal\nPred: chronic alcoholic intoxication\nActual: delusion\nPred: deep vein thrombosis\nActual: dementia\nPred: stenosis aortic valve\nActual: cellulitis\nPred: osteoporosis\nActual: melanoma\nPred: decubitus ulcer\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: accident cerebrovascular\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717468938425,
+  "history_end_time" : 1717468939860,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "lj0l21rnt3l",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: psychotic disorder\nActual: bipolar disorder\nPred: chronic alcoholic intoxication\nActual: endocarditis\nPred: chronic alcoholic intoxication\nActual: pneumonia\nPred: mitral valve insufficiency\nActual: ischemia\nPred: emphysema pulmonary\nActual: colitis\nPred: thrombus\nActual: kidney failure acute\nPred: hyperglycemia\nActual: kidney disease\nPred: depression mental\nActual: paranoia\nPred: hepatitis B\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: diabetes\nActual: hypertensive disease\nPred: accident cerebrovascular\nActual: hemiparesis\nPred: anemia\nActual: cirrhosis\nPred: depression mental\nActual: manic disorder\nPred: cardiomyopathy\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: failure heart congestive\nActual: paroxysmal dyspnea\nPred: hernia\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: pneumonia aspiration\nActual: confusion\nPred: dehydration\nActual: gastroesophageal reflux disease\nPred: gastroenteritis\nActual: delirium\nPred: chronic alcoholic intoxication\nActual: insufficiency renal\nPred: hyperglycemia\nActual: delusion\nPred: hyperglycemia\nActual: dementia\nPred: chronic obstructive airway disease\nActual: cellulitis\nPred: biliary calculus\nActual: melanoma\nPred: gastroenteritis\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: diabetes\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717468822521,
+  "history_end_time" : 1717468824153,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "ep50a8xb19u",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: depression mental\nActual: bipolar disorder\nPred: neutropenia\nActual: endocarditis\nPred: asthma\nActual: pneumonia\nPred: coronary arteriosclerosis\nActual: ischemia\nPred: influenza\nActual: colitis\nPred: diabetes\nActual: kidney failure acute\nPred: affect labile\nActual: kidney disease\nPred: chronic alcoholic intoxication\nActual: paranoia\nPred: thrombocytopaenia\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: diabetes\nActual: hypertensive disease\nPred: hypothyroidism\nActual: hemiparesis\nPred: hepatitis C\nActual: cirrhosis\nPred: depression mental\nActual: manic disorder\nPred: infection urinary tract\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: coronary arteriosclerosis\nActual: paroxysmal dyspnea\nPred: neutropenia\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: incontinence\nActual: confusion\nPred: diabetes\nActual: gastroesophageal reflux disease\nPred: suicide attempt\nActual: delirium\nPred: anemia\nActual: insufficiency renal\nPred: chronic alcoholic intoxication\nActual: delusion\nPred: affect labile\nActual: dementia\nPred: infection\nActual: cellulitis\nPred: affect labile\nActual: melanoma\nPred: hepatitis C\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: accident cerebrovascular\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717468609532,
+  "history_end_time" : 1717468611098,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "3zjzwHa1IlCy",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load(f'{homedir}/research/disease-prediction/X_test.joblib')\ny_test = load(f'{homedir}/research/disease-prediction/y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Pred: suicide attempt\nActual: bipolar disorder\nPred: benign prostatic hypertrophy\nActual: endocarditis\nPred: lymphatic diseases\nActual: pneumonia\nPred: edema pulmonary\nActual: ischemia\nPred: pyelonephritis\nActual: colitis\nPred: hypoglycemia\nActual: kidney failure acute\nPred: decubitus ulcer\nActual: kidney disease\nPred: suicide attempt\nActual: paranoia\nPred: pyelonephritis\nActual: hepatitis\nPred: acquired immuno-deficiency syndrome\nActual: HIV\nPred: decubitus ulcer\nActual: hypertensive disease\nPred: pneumonia aspiration\nActual: hemiparesis\nPred: osteoporosis\nActual: cirrhosis\nPred: chronic alcoholic intoxication\nActual: manic disorder\nPred: neuropathy\nActual: lymphoma\nPred: septicemia\nActual: sepsis (invertebrate)\nPred: failure heart congestive\nActual: paroxysmal dyspnea\nPred: lymphatic diseases\nActual: malignant neoplasms\nPred: acquired immuno-deficiency syndrome\nActual: hiv infections\nPred: parkinson disease\nActual: confusion\nPred: carcinoma colon\nActual: gastroesophageal reflux disease\nPred: decubitus ulcer\nActual: delirium\nPred: failure heart congestive\nActual: insufficiency renal\nPred: suicide attempt\nActual: delusion\nPred: parkinson disease\nActual: dementia\nPred: exanthema\nActual: cellulitis\nPred: thrombus\nActual: melanoma\nPred: osteoporosis\nActual: glaucoma\nPred: malignant neoplasms\nActual: primary malignant neoplasm\nPred: ketoacidosis diabetic\nActual: transient ischemic attack\n",
+  "history_begin_time" : 1717375572032,
+  "history_end_time" : 1717375573249,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "jT1fJnvTWoah",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n# Load the test data from files\nX_test = load('X_test.joblib')\ny_test = load('y_test.joblib')\n\n\n\n\ndisease_pred = clf_dt.predict(X_test)\ndisease_real = y_test.values\n\nfor i in range(0, len(disease_real)):\n    if disease_pred[i]!=disease_real[i]:\n        print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/vangavetisaivivek/gw-workspace/jT1fJnvTWoah/test-diseasprediction-model.py\", line 9, in <module>\n    X_test = load('X_test.joblib')\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/vangavetisaivivek/anaconda3/lib/python3.11/site-packages/joblib/numpy_pickle.py\", line 650, in load\n    with open(filename, 'rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'X_test.joblib'\n",
+  "history_begin_time" : 1717375492198,
+  "history_end_time" : 1717375493032,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : null,
+  "indicator" : "Failed"
+},{
+  "history_id" : "nhx7s7VJTzN0",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\nimport os\nhomedir = os.path.expanduser('~')\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n\n\n\n# disease_pred = clf_dt.predict(X)\n# disease_real = y.values\n\n# for i in range(0, len(disease_real)):\n#     if disease_pred[i]!=disease_real[i]:\n#         print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "",
+  "history_begin_time" : 1717374252822,
+  "history_end_time" : 1717374253702,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "svgOnrrQp1oQ",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\n\n# Load the model from the file\nclf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n\n\n\n# disease_pred = clf_dt.predict(X)\n# disease_real = y.values\n\n# for i in range(0, len(disease_real)):\n#     if disease_pred[i]!=disease_real[i]:\n#         print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/vangavetisaivivek/gw-workspace/svgOnrrQp1oQ/test-diseasprediction-model.py\", line 5, in <module>\n    clf_dt = load(f'{homedir}/research/disease-prediction/modal.joblib')\n                     ^^^^^^^\nNameError: name 'homedir' is not defined\n",
+  "history_begin_time" : 1717374218180,
+  "history_end_time" : 1717374218609,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : null,
+  "indicator" : "Failed"
+},{
+  "history_id" : "4iEhWJ7iUINI",
+  "history_input" : "# Write your first Python code in Geoweaver\nfrom joblib import dump, load\n\n# Load the model from the file\nclf_dt = load('model.joblib')\n\n\n\n# disease_pred = clf_dt.predict(X)\n# disease_real = y.values\n\n# for i in range(0, len(disease_real)):\n#     if disease_pred[i]!=disease_real[i]:\n#         print ('Pred: {0}\\nActual: {1}\\n'.format(disease_pred[i], disease_real[i]))",
+  "history_output" : "Traceback (most recent call last):\n  File \"/Users/vangavetisaivivek/gw-workspace/4iEhWJ7iUINI/test-diseasprediction-model.py\", line 5, in <module>\n    clf_dt = load('model.joblib')\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/vangavetisaivivek/anaconda3/lib/python3.11/site-packages/joblib/numpy_pickle.py\", line 650, in load\n    with open(filename, 'rb') as f:\n         ^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'model.joblib'\n",
+  "history_begin_time" : 1717374155919,
+  "history_end_time" : 1717374156346,
+  "history_notes" : null,
+  "history_process" : "7k5p70",
+  "host_id" : null,
+  "indicator" : "Failed"
+},]

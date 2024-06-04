@@ -1,0 +1,141 @@
+[{
+  "history_id" : "wjq01v7y1qe",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/wjq01v7y1qe/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717471671273,
+  "history_end_time" : 1717471675039,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "yv603pi2mey",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/yv603pi2mey/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717470585181,
+  "history_end_time" : 1717470588995,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "is3rfq1975b",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/is3rfq1975b/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n",
+  "history_begin_time" : 1717470439055,
+  "history_end_time" : 1717470442502,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "bxh52mz7jdc",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/bxh52mz7jdc/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717470304591,
+  "history_end_time" : 1717470308089,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "j5b8fv3juct",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/j5b8fv3juct/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717470243160,
+  "history_end_time" : 1717470246931,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "9v9zpz0z4ob",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/9v9zpz0z4ob/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717470089225,
+  "history_end_time" : 1717470092841,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "ydsyoay7a05",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/ydsyoay7a05/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717468926019,
+  "history_end_time" : 1717468928945,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "nkm7wv95zb6",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/nkm7wv95zb6/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n",
+  "history_begin_time" : 1717468808262,
+  "history_end_time" : 1717468811512,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "rusvv1xspu9",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/rusvv1xspu9/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717468563420,
+  "history_end_time" : 1717468595499,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : "100001",
+  "indicator" : "Done"
+},{
+  "history_id" : "aEeKCuPCJEt6",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/aEeKCuPCJEt6/data-retrieval.py:10: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717373819650,
+  "history_end_time" : 1717373822540,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "33FNuwWseCuX",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport csv\nimport pandas as pd\nimport numpy as np\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/research/disease-prediction/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\ndata.to_csv('~/research/disease-prediction/data-withoutnull')\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/33FNuwWseCuX/data-retrieval.py:11: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717361048960,
+  "history_end_time" : 1717361050990,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "gHErzpIQ1olA",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport csv\nimport pandas as pd\nimport numpy as np\nfrom collections import defaultdict\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/Downloads/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint('after filling null values\\n')\nprint(data.head())\n",
+  "history_output" : "                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1                                 NaN  ...  UMLS:C0392680_shortness of breath\n2                                 NaN  ...            UMLS:C0012833_dizziness\n3                                 NaN  ...             UMLS:C0004093_asthenia\n4                                 NaN  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n/Users/vangavetisaivivek/gw-workspace/gHErzpIQ1olA/data-retrieval.py:11: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data = df.fillna(method='ffill')\nafter filling null values\n                              Disease  ...                            Symptom\n0  UMLS:C0020538_hypertensive disease  ...           UMLS:C0008031_pain chest\n1  UMLS:C0020538_hypertensive disease  ...  UMLS:C0392680_shortness of breath\n2  UMLS:C0020538_hypertensive disease  ...            UMLS:C0012833_dizziness\n3  UMLS:C0020538_hypertensive disease  ...             UMLS:C0004093_asthenia\n4  UMLS:C0020538_hypertensive disease  ...                 UMLS:C0085639_fall\n[5 rows x 3 columns]\n",
+  "history_begin_time" : 1717360552719,
+  "history_end_time" : 1717360560091,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : null,
+  "indicator" : "Done"
+},{
+  "history_id" : "Ut0sgQmW6PoG",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport csv\nimport pandas as pd\nimport numpy as np\nfrom collections import defaultdict\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_excel('~/disease-dataset/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint(\"after filling null values\\n\")\nprint(data.head())\n",
+  "history_output" : "  File \"data-retrieval.py\", line 12\n    print(\"after filling null values\n                                   ^\nSyntaxError: EOL while scanning string literal\ngw_exit_code=1\n",
+  "history_begin_time" : 1717360445678,
+  "history_end_time" : 1717360447066,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : null,
+  "indicator" : "Failed"
+},{
+  "history_id" : "vByMrhyqFQQD",
+  "history_input" : "# Write your first Python code in Geoweaver\nimport csv\nimport pandas as pd\nimport numpy as np\nfrom collections import defaultdict\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n%matplotlib inline\ndf = pd.read_excel('~/disease-dataset/raw_data.xlsx')\nprint(df.head())\ndata = df.fillna(method='ffill')\nprint(\"after filling null values\\n\")\nprint(data.head())\n",
+  "history_output" : "  File \"data-retrieval.py\", line 8\n    %matplotlib inline\n    ^\nSyntaxError: invalid syntax\ngw_exit_code=1\n",
+  "history_begin_time" : 1717360376032,
+  "history_end_time" : 1717360377480,
+  "history_notes" : null,
+  "history_process" : "7624xp",
+  "host_id" : null,
+  "indicator" : "Failed"
+},]
